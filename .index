@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+  <info>
+    <name>Yuan-Ti Pureblood for Aurora</name>
+    <description>Custom race: Yuan-Ti Pureblood, adapted for Aurora D&D 5e.</description>
+    <author>ashyea</author>
+    <url>https://github.com/ashyea/aurora-yuan-ti-pureblood</url>
+  </info>
+  <files>
+    <file>
+      <name>Yuan-Ti Pureblood</name>
+      <file>race-Yuan-Ti-Pureblood.xml</file>
+      <url>https://raw.githubusercontent.com/ashyea/aurora-yuan-ti-pureblood/main/race-Yuan-Ti-Pureblood.xml</url>
+      <description>Yuan-Ti Pureblood race from Volo's Guide to Monsters.</description>
+    </file>
+  </files>
+</index>
