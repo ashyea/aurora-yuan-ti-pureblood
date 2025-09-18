@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <elements>
-	<info>
-		<name>Yuan-Ti Pureblood</name>
-		<description>Serpentfolk descended from an ancient, decadent human empire, imbued with magical gifts and serpentine features.</description>
-	    <update version="1.0">
-			<file name="race-Yuan-Ti-Pureblood.xml" url=""/>
-		</update>
-	</info>
-
+  <info>
+    <name>Yuan-Ti Pureblood</name>
+    <description>Serpentfolk descended from an ancient, decadent human empire, imbued with magical gifts and serpentine features.</description>
+  </info>
   <element name="Yuan-Ti Pureblood" type="Race" source="Volo's Guide to Monsters" id="ID_VGM_RACE_YUANTIPUREBLOOD">
     <description>
       <h4>YUAN-TI PUREBLOOD</h4>
-      <p>The serpent creatures known as yuan-ti are all that remains of an ancient, decadent human empire. Ages ago their dark gods taught them profane, cannibalistic rituals to mix their flesh with that of snakes, producing a caste-based society of hybrids in which the most snakelike are the leaders and the most humanlike are spies and agents in foreign lands.</p> 
+      <p>The serpent creatures known as yuan-ti are all that remains of an ancient, decadent human empire. Ages ago their dark gods taught them profane, cannibalistic rituals to mix their flesh with that of snakes, producing a caste-based society of hybrids in which the most snakelike are the leaders and the most humanlike are spies and agents in foreign lands.</p>
       <span class="feature">Ability Score Increase.</span> Your Charisma score increases by 2, and your Intelligence score increases by 1.<br/>
       <span class="feature">Age.</span> Purebloods mature at the same rate as humans and have lifespans similar in length to theirs.<br/>
       <span class="feature">Alignment.</span> Yuan-Ti tend toward neutrality, with few inclining toward good.<br/>
@@ -23,7 +19,7 @@
       <span class="feature">Poison Immunity.</span> You are immune to poison damage and the poisoned condition.<br/>
     </description>
     <sheet display="true"/>
-    <supports />
+    <supports/>
     <setters>
       <set name="height" modifier="2d8">4'5"</set>
       <set name="weight" modifier="2d6">110 lb.</set>
@@ -32,24 +28,21 @@
       <stat name="charisma" value="2"/>
       <stat name="intelligence" value="1"/>
       <stat name="innate speed" value="30" bonus="base"/>
-      <grant type="Vision" id="ID_VISION_DARKVISION" />
-      <grant type="Size" id="ID_SIZE_MEDIUM" />
-      <grant type="Language" id="ID_LANGUAGE_COMMON" />
-      <grant type="Language" id="ID_LANGUAGE_ABYSSAL" />
-      <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
-
+      <grant type="Vision" id="ID_VISION_DARKVISION"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM"/>
+      <grant type="Language" id="ID_LANGUAGE_COMMON"/>
+      <grant type="Language" id="ID_LANGUAGE_ABYSSAL"/>
+      <grant type="Language" id="ID_LANGUAGE_DRACONIC"/>
       <!-- Innate Spellcasting: -->
-      <grant type="InnateSpell" id="ID_INNATE_SPELLCASTING_YUANTI_PUREBLOOD" />
+      <grant type="InnateSpell" id="ID_INNATE_SPELLCASTING_YUANTI_PUREBLOOD"/>
       <!-- For individual spells: -->
-      <grant type="Spell" id="ID_SPELL_POISON_SPRAY" />
-      <grant type="Spell" id="ID_SPELL_ANIMAL_FRIENDSHIP" />
-      <grant type="Spell" id="ID_SPELL_SUGGESTION" />
-
+      <grant type="Spell" id="ID_SPELL_POISON_SPRAY"/>
+      <grant type="Spell" id="ID_SPELL_ANIMAL_FRIENDSHIP"/>
+      <grant type="Spell" id="ID_SPELL_SUGGESTION"/>
       <!-- Magic Resistance: -->
-      <grant type="Feature" id="ID_FEATURE_MAGIC_RESISTANCE" />
-
+      <grant type="Feature" id="ID_FEATURE_MAGIC_RESISTANCE"/>
       <!-- Poison Immunity: -->
-      <grant type="Feature" id="ID_FEATURE_POISON_IMMUNITY" />
+      <grant type="Feature" id="ID_FEATURE_POISON_IMMUNITY"/>
     </rules>
   </element>
 </elements>
